@@ -7,7 +7,8 @@ dict = {
     2 : "Agua", 
     3 : "Veneno", 
     4 : "Tierra", 
-    5 : "Hielo"
+    5 : "Hielo", 
+    6 : "Electrico"
 }
 
 
