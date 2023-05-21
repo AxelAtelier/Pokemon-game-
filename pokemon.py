@@ -5,6 +5,8 @@ style = None
 
 if election == 1:
     style = str("fuego")
+elif election == 2:
+    style = str("tierra")
 else:
     style = str("agua")
 
