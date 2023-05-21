@@ -8,7 +8,11 @@ dict = {
     3 : "Veneno", 
     4 : "Tierra", 
     5 : "Hielo", 
-    6 : "Electrico"
+    6 : "Electrico", 
+    7 : "Bicho", 
+    8 : "Dragon", 
+    9 : "Hada", 
+    10 : "Volador"
 }
 
 if election in dict:
