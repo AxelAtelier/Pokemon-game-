@@ -11,15 +11,9 @@ dict = {
     6 : "Electrico"
 }
 
-
-if election == 1:
-    style = str("fuego")
-elif election == 2:
-    style = str("tierra")
-elif election == 3:
-    style = str("veneno")
-else:
-    style = str("agua")
+if election in dict:
+    valor = dict[election]
 
 
-print(f"Tu pokemon se llama {pokemon} y su tipo es {style}")
+
+print(f"Tu pokemon se llama {pokemon} y su tipo es {valor}")
